@@ -1,6 +1,11 @@
 {{ define "main" }}
 <section id="main">
   <h1 id="title">{{ .Title }}</h1>
+  {{ if and (gt .WordCount 400 ) (ne .Params.toc "false") }}
+  <aside>
+    {{.TableOfContents}}
+  </aside>
+  {{ end }}
   <div>
     <article id="content">
         {{ .Content }}
