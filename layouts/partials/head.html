@@ -7,3 +7,5 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
     {{ if .RSSLink -}}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}">{{- end }}
     {{ if .Site.GoogleAnalytics }}{{- partial "gtag.html" . -}}{{ end}}
+    {{ .Hugo.Generator }}
+    
