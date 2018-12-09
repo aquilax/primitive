@@ -4,7 +4,7 @@
     <a href="{{.Permalink}}">{{.Title}}</a>
   </li>
 {{- end -}}
-{{ range sort .Pages "Name"}}
+{{ range sort .Pages "Date"}}
   <li>
     <a href="{{.Permalink}}">{{.Title}}</a>
   </li>
