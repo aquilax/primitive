@@ -10,3 +10,9 @@ body, html {
 .title a {
     color: #000;
 }
+pre {
+  padding: 1em;
+  border: 1px dashed #2f6fab;
+  background-color: #f9f9f9;
+  overflow-x: auto;
+}
