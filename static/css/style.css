@@ -46,3 +46,10 @@ h1 {
   margin: 1em 0 .2em 0;
   padding-bottom: .2em;
 }
+pre {
+  background-color: #f8f9fa;
+  border: 1px solid #eaecf0;
+  padding: 1em;
+  overflow-x: scroll;
+  overflow-wrap: break-word;
+}
