@@ -1,25 +1,29 @@
-body, html {
-    margin: 0;
-    color: #222
+body,
+html {
+  margin: 0;
+  color: #222;
+  background: #fafafa;
 }
 .page {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 728px;
-    font-size: 1em;
-    margin: 0 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 40rem;
+  font-size: 1em;
+  margin: 0 1em;
+  line-height: 1.4;
 }
 .title {
   font-size: 3em;
   margin-bottom: 0;
   color: #000;
 }
-.title a, .title a:visited {
+.title a,
+.title a:visited {
   color: #222;
 }
 aside.toc {
   border: 1px solid #a2a9b1;
   background: #f8f9fa;
-  padding: .6em;
+  padding: 0.6em;
 }
 aside.toc ul {
   padding-left: 1em;
@@ -27,26 +31,32 @@ aside.toc ul {
 }
 a {
   color: #0645ad;
-  text-decoration: none
+  text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
-a:active{
+a:active {
   color: #faa700;
 }
 a:visited {
-    color: #0b0080;
+  color: #0b0080;
 }
 h1 {
   font-size: 2em;
 }
-#main h1, #main h2 {
+#main h1,
+#main h2 {
   border-bottom: 1px solid #cecece;
 }
-#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-  margin: 1em 0 .2em 0;
-  padding-bottom: .2em;
+#main h1,
+#main h2,
+#main h3,
+#main h4,
+#main h5,
+#main h6 {
+  margin: 1em 0 0.2em 0;
+  padding-bottom: 0.2em;
 }
 pre {
   background-color: #f8f9fa;
