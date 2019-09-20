@@ -9,4 +9,4 @@
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
   {{ end -}}
   {{ if .Site.GoogleAnalytics }}{{- partial "gtag.html" . -}}{{ end}}
-  {{ $.Hugo.Generator }}
+  {{ hugo.Generator }}
